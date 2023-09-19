@@ -1,0 +1,94 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+
+body{
+    color: antiquewhite;
+    font-family: 'Croissant One', cursive;
+    margin: auto;
+    background-image: url("../img/bg.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+    font-size: larger;
+
+}
+
+#layout {
+    border-radius: 20px;
+    background-color: #4B5282;
+    border: 8px #401010 dotted;
+    padding: 3px;
+    margin: 50px;
+    margin-top: 65px;
+    text-align: center;
+    width: 85%;
+    margin-left: 100px;
+}
+
+header{
+    width: 400px;
+    position: fixed;
+    top: 60px;
+    left: 135px;
+}
+
+header img{
+    transform: scale(1.5);
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+nav{
+    position: fixed;
+    width: 400px;
+    top: 400px;
+    margin-left: 50px;
+    text-align: center;
+    color: antiquewhite;
+}
+
+#audio-player{
+    text-align: center;
+    margin-left: 40px;
+}
+
+main{
+width: 650px;
+margin-left: 550px;
+}
+
+section{
+margin-top: 25px;
+}
+
+section img{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+}
+
+section img:hover{
+    transform: scale(1.05);
+    border: #401010 5px solid;
+    box-shadow: 0 0 25px 1px antiquewhite;
+}
+
+section p{
+    margin: auto;
+    text-align: center;
+}
+
+footer{
+color: blueviolet;
+position: fixed;
+text-align: center;
+bottom: 25px;
+left: 230px;
+}
+
+#splashgif {
+    width: 525px;
+    margin: auto;
+    text-align: center;
+    margin-top: 25px;
+    margin-left: 200px;
+}
