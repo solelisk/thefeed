@@ -48,12 +48,11 @@ nav{
 
 a {
     text-decoration: none;
-    color: antiquewhite;
-
+    color: #401010;
 }
 
 nav h5:hover {
-    box-shadow: 0 0 25px 1px antiquewhite;
+    transform: scale(1.50);
 }
 
 main{
@@ -83,11 +82,10 @@ section p{
 }
 
 footer{
-color: blueviolet;
+color: antiquewhite;
 position: fixed;
 text-align: center;
-bottom: 25px;
-left: 230px;
+
 }
 
 #audio-player{
