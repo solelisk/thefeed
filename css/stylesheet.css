@@ -43,7 +43,10 @@ nav{
     top: 400px;
     margin-left: 50px;
     text-align: center;
-    color: antiquewhite;
+    color:#4B5282;
+    background-color: antiquewhite;
+    border-radius: 20px;
+    border: #401010 5px dotted;
 }
 
 a {
@@ -79,13 +82,6 @@ section img:hover{
 section p{
     margin: auto;
     text-align: center;
-}
-
-footer{
-color: antiquewhite;
-position: fixed;
-text-align: center;
-
 }
 
 #audio-player{
