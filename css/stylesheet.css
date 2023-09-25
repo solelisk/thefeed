@@ -1,17 +1,6 @@
 @import 
 url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
 
-body{
-    color: antiquewhite;
-    font-family: 'Croissant One', cursive;
-    margin: auto;
-    background-image: url("../img/bg.jpg");
-    background-repeat: repeat;
-    background-size: 100%;
-    font-size: larger;
-
-}
-
 #layout {
     border-radius: 20px;
     background-color: #4B5282;
@@ -35,6 +24,21 @@ header img{
     transform: scale(1.5);
     margin-left: 100px;
     margin-top: 50px;
+}
+
+#audio-player{
+    text-align: center;
+    margin-left: 40px;
+}
+
+body{
+    color: antiquewhite;
+    font-family: 'Croissant One', cursive;
+    margin: auto;
+    background-image: url("../img/bg.jpg");
+    background-repeat: repeat;
+    background-size: 100%;
+    font-size: larger;
 }
 
 nav{
@@ -82,11 +86,6 @@ section img:hover{
 section p{
     margin: auto;
     text-align: center;
-}
-
-#audio-player{
-    text-align: center;
-    margin-left: 40px;
 }
 
 #splashgif {
